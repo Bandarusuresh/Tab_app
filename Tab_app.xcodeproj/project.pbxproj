@@ -13,6 +13,10 @@
 		3DC979AD205269E300F9CBF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC979AC205269E300F9CBF9 /* Assets.xcassets */; };
 		3DC979B0205269E300F9CBF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC979AE205269E300F9CBF9 /* LaunchScreen.storyboard */; };
 		3DC979B3205269E400F9CBF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC979B2205269E400F9CBF9 /* main.m */; };
+		3DF0DEE92053A43A00992681 /* bean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DF0DEE82053A43A00992681 /* bean.jpg */; };
+		3DF0DEEC2053A51100992681 /* BellNotificationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0DEEB2053A51100992681 /* BellNotificationVC.m */; };
+		3DF0DEEE2053A93000992681 /* Bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DF0DEED2053A93000992681 /* Bell.png */; };
+		3DF0DEF12053B7B500992681 /* SMSvc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0DEF02053B7B500992681 /* SMSvc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,12 @@
 		3DC979AF205269E300F9CBF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DC979B1205269E300F9CBF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DC979B2205269E400F9CBF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DF0DEE82053A43A00992681 /* bean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bean.jpg; sourceTree = "<group>"; };
+		3DF0DEEA2053A51100992681 /* BellNotificationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BellNotificationVC.h; sourceTree = "<group>"; };
+		3DF0DEEB2053A51100992681 /* BellNotificationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BellNotificationVC.m; sourceTree = "<group>"; };
+		3DF0DEED2053A93000992681 /* Bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bell.png; sourceTree = "<group>"; };
+		3DF0DEEF2053B7B500992681 /* SMSvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMSvc.h; sourceTree = "<group>"; };
+		3DF0DEF02053B7B500992681 /* SMSvc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSvc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,12 @@
 				3DC979A4205269E300F9CBF9 /* AppDelegate.m */,
 				3DC979A6205269E300F9CBF9 /* ViewController.h */,
 				3DC979A7205269E300F9CBF9 /* ViewController.m */,
+				3DF0DEEA2053A51100992681 /* BellNotificationVC.h */,
+				3DF0DEEB2053A51100992681 /* BellNotificationVC.m */,
+				3DF0DEEF2053B7B500992681 /* SMSvc.h */,
+				3DF0DEF02053B7B500992681 /* SMSvc.m */,
+				3DF0DEE82053A43A00992681 /* bean.jpg */,
+				3DF0DEED2053A93000992681 /* Bell.png */,
 				3DC979A9205269E300F9CBF9 /* Main.storyboard */,
 				3DC979AC205269E300F9CBF9 /* Assets.xcassets */,
 				3DC979AE205269E300F9CBF9 /* LaunchScreen.storyboard */,
@@ -130,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DC979B0205269E300F9CBF9 /* LaunchScreen.storyboard in Resources */,
+				3DF0DEE92053A43A00992681 /* bean.jpg in Resources */,
+				3DF0DEEE2053A93000992681 /* Bell.png in Resources */,
 				3DC979AD205269E300F9CBF9 /* Assets.xcassets in Resources */,
 				3DC979AB205269E300F9CBF9 /* Main.storyboard in Resources */,
 			);
@@ -142,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF0DEF12053B7B500992681 /* SMSvc.m in Sources */,
 				3DC979A8205269E300F9CBF9 /* ViewController.m in Sources */,
 				3DC979B3205269E400F9CBF9 /* main.m in Sources */,
+				3DF0DEEC2053A51100992681 /* BellNotificationVC.m in Sources */,
 				3DC979A5205269E300F9CBF9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
