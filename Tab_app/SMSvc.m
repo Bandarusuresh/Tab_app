@@ -47,14 +47,15 @@
 */
 
 - (IBAction)Sms_btn:(id)sender {
-    
-    
-    
     NSString *mystring = [NSString stringWithFormat:@"method=%@&mobile_number=%@&message=%@",@"sendingotptext",_sms_otp_txt.text,_sms_txt.text];
     
     
     //NSString *mystring = [NSString stringWithFormat:@"method=%@&mobile_number=%@&profile_id=%@",@"sendingotp",_mobile_nmber_txt.text,_id_txtnum.text];
     //NSString *mystring = [NSString stringWithFormat:@"mobile_number=%@",_mobile_num_txt.text];
+
+    
+    
+    
     NSData *bodyData = [mystring dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
     //URL CONFIG
     NSString *serverURL = @"https://www.healthaadhar.com/login/health_core_files/json.php";
@@ -62,9 +63,11 @@
     [dictionnary setObject:mystring forKey:@"method"];
     [dictionnary setObject:_sms_otp_txt.text forKey:@"mobile_number"];
     [dictionnary setObject:_sms_txt.text forKey:@"message"];
+
     
     
-    //
+    
+    
     //    NSString *mystring = [NSString stringWithFormat:@"mobile_number=%@",_Mobil_num_txt.text];
     //    NSData *bodyData = [mystring dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
     //    //URL CONFIG
@@ -73,6 +76,7 @@
     //    NSMutableDictionary *dictionnary = [NSMutableDictionary dictionary];
     //
     //    [dictionnary setObject:_Mobil_num_txt forKey:@"mobile_number"];
+    
     
     NSString *downloadUrl = [NSString stringWithFormat:@"%@/your-friendly-url-here/json",serverURL];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString: downloadUrl]];
@@ -102,15 +106,11 @@
             if(resultstring.integerValue==1)
             {
                 
-                
-                
-                
                 NSString *otp=json_response[@"msg"];
-                
                 NSInteger asd=otp.integerValue;
                 _lbl.text=[NSString stringWithFormat:@"%ld",(long)asd];
-                
                 otpString=[NSString stringWithFormat:@"%ld",(long)asd];
+                
                 
 //
 //                SignUpViewController *dvc = [self.storyboard instantiateViewControllerWithIdentifier:@"SignUpViewController1"];
@@ -124,7 +124,7 @@
 //                [self presentViewController:dvc animated:YES completion:nil];
 //
 //
-                
+
                 
                 
                 //                                UIStoryboard *story=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
@@ -143,11 +143,6 @@
                 
                 
                 
-                
-                
-                
-                
-                
                 //                                _lbl_txt.text=[NSString stringWithFormat:@"%ld",(long)asd];
                 //                                otpString=[NSString stringWithFormat:@"%ld",(long)asd];
                 //                                _lbl_txt.text = [NSString stringWithFormat:@"%@", msg];
@@ -160,7 +155,7 @@
                 //                                                                    otherButtonTitles:@"Cancel",nil];
                 //                            [message show];
                 
-                
+            
             }
             else
             {

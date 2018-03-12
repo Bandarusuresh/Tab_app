@@ -10,11 +10,8 @@
 
 #import <UserNotifications/UserNotifications.h>
 @import UserNotifications;
-
 @interface BellNotificationVC ()
-
 @end
-
 @implementation BellNotificationVC
 
 - (void)viewDidLoad {
@@ -38,6 +35,9 @@
 */
 
 
+
+
+
 - (IBAction)send_btn:(UIButton *)sender {
     UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
     [center getNotificationSettingsWithCompletionHandler:^(UNNotificationSettings * _Nonnull settings) {
@@ -49,6 +49,7 @@
         }
     }];
 }
+
 
 
 
@@ -69,12 +70,10 @@
     content.body = @"Buy some milk";
     content.categoryIdentifier = @"UYLReminderCategory";
     content.sound = [UNNotificationSound defaultSound];
-    UNTimeIntervalNotificationTrigger *trigger = [UNTimeIntervalNotificationTrigger triggerWithTimeInterval:10 repeats:NO];
+    UNTimeIntervalNotificationTrigger *trigger = [UNTimeIntervalNotificationTrigger triggerWithTimeInterval:5 repeats:NO];
     
     
     
-    //UIApplicationState state = [application applicationState];
-    //if (state == UIApplicationStateActive) {
     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Reminder"
                                                     message:content.body
                                                    delegate:self cancelButtonTitle:@"OK"
@@ -84,23 +83,17 @@
     
     // Request to reload table view data
     [[NSNotificationCenter defaultCenter] postNotificationName:@"reloadData" object:self];
+
     
-    // Set icon badge number to zero
-    //application.applicationIconBadgeNumber = 0;
     
     self.i++;
     [self.lbl setText:[NSString stringWithFormat:@"%d", self.i]];
         NSString *identifier = @"UYLLocalNotification";
     UNNotificationRequest *request = [UNNotificationRequest requestWithIdentifier:identifier content:content trigger:trigger];
-    
     [center addNotificationRequest:request withCompletionHandler:^(NSError * _Nullable error) {
         if (error != nil) {
             NSLog(@"Something went wrong: %@",error);
         }
     }];
 }
-
-
-
-
 @end

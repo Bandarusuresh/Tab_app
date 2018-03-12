@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DA1050620568499002B3D33 /* overlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1050520568499002B3D33 /* overlay.m */; };
+		3DA10508205684CA002B3D33 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA10507205684CA002B3D33 /* OverlayView.xib */; };
+		3DA1050B205684DE002B3D33 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1050A205684DD002B3D33 /* OverlayView.m */; };
+		3DA1050D205684EC002B3D33 /* OverlayView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1050C205684EC002B3D33 /* OverlayView1.xib */; };
+		3DA1051020568506002B3D33 /* OverlayView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA1050F20568506002B3D33 /* OverlayView1.m */; };
+		3DA105122056897F002B3D33 /* closebox.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA105112056897F002B3D33 /* closebox.png */; };
+		3DA105142056898B002B3D33 /* closebox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA105132056898B002B3D33 /* closebox@2x.png */; };
+		3DA105172056984A002B3D33 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA105162056984A002B3D33 /* CollectionViewCell.m */; };
+		3DA1051A2056A028002B3D33 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA105192056A028002B3D33 /* HomeVC.m */; };
+		3DA1051C2056A201002B3D33 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1051B2056A200002B3D33 /* icon.jpg */; };
+		3DA1051E2056A373002B3D33 /* lighticon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1051D2056A373002B3D33 /* lighticon.jpg */; };
+		3DA105202056A59F002B3D33 /* Lightimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1051F2056A59F002B3D33 /* Lightimage.png */; };
+		3DA105222056A8BA002B3D33 /* IconImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DA105212056A8BA002B3D33 /* IconImage.jpg */; };
 		3DC979A5205269E300F9CBF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC979A4205269E300F9CBF9 /* AppDelegate.m */; };
 		3DC979A8205269E300F9CBF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC979A7205269E300F9CBF9 /* ViewController.m */; };
 		3DC979AB205269E300F9CBF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC979A9205269E300F9CBF9 /* Main.storyboard */; };
@@ -20,6 +33,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DA1050420568490002B3D33 /* overlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = overlay.h; sourceTree = "<group>"; };
+		3DA1050520568499002B3D33 /* overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = overlay.m; sourceTree = "<group>"; };
+		3DA10507205684CA002B3D33 /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		3DA10509205684D4002B3D33 /* OverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		3DA1050A205684DD002B3D33 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		3DA1050C205684EC002B3D33 /* OverlayView1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView1.xib; sourceTree = "<group>"; };
+		3DA1050E205684F6002B3D33 /* OverlayView1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OverlayView1.h; sourceTree = "<group>"; };
+		3DA1050F20568506002B3D33 /* OverlayView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView1.m; sourceTree = "<group>"; };
+		3DA105112056897F002B3D33 /* closebox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closebox.png; sourceTree = "<group>"; };
+		3DA105132056898B002B3D33 /* closebox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "closebox@2x.png"; sourceTree = "<group>"; };
+		3DA105152056984A002B3D33 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		3DA105162056984A002B3D33 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		3DA105182056A028002B3D33 /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		3DA105192056A028002B3D33 /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		3DA1051B2056A200002B3D33 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
+		3DA1051D2056A373002B3D33 /* lighticon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lighticon.jpg; sourceTree = "<group>"; };
+		3DA1051F2056A59F002B3D33 /* Lightimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lightimage.png; sourceTree = "<group>"; };
+		3DA105212056A8BA002B3D33 /* IconImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IconImage.jpg; sourceTree = "<group>"; };
 		3DC979A0205269E300F9CBF9 /* Tab_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tab_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC979A3205269E300F9CBF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DC979A4205269E300F9CBF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,12 +103,30 @@
 				3DC979A4205269E300F9CBF9 /* AppDelegate.m */,
 				3DC979A6205269E300F9CBF9 /* ViewController.h */,
 				3DC979A7205269E300F9CBF9 /* ViewController.m */,
+				3DA105182056A028002B3D33 /* HomeVC.h */,
+				3DA105192056A028002B3D33 /* HomeVC.m */,
+				3DA105152056984A002B3D33 /* CollectionViewCell.h */,
+				3DA105162056984A002B3D33 /* CollectionViewCell.m */,
 				3DF0DEEA2053A51100992681 /* BellNotificationVC.h */,
 				3DF0DEEB2053A51100992681 /* BellNotificationVC.m */,
 				3DF0DEEF2053B7B500992681 /* SMSvc.h */,
 				3DF0DEF02053B7B500992681 /* SMSvc.m */,
+				3DA1051F2056A59F002B3D33 /* Lightimage.png */,
+				3DA1051D2056A373002B3D33 /* lighticon.jpg */,
+				3DA1051B2056A200002B3D33 /* icon.jpg */,
+				3DA105212056A8BA002B3D33 /* IconImage.jpg */,
+				3DA105112056897F002B3D33 /* closebox.png */,
+				3DA105132056898B002B3D33 /* closebox@2x.png */,
+				3DA1050420568490002B3D33 /* overlay.h */,
+				3DA1050520568499002B3D33 /* overlay.m */,
 				3DF0DEE82053A43A00992681 /* bean.jpg */,
 				3DF0DEED2053A93000992681 /* Bell.png */,
+				3DA10507205684CA002B3D33 /* OverlayView.xib */,
+				3DA10509205684D4002B3D33 /* OverlayView.h */,
+				3DA1050A205684DD002B3D33 /* OverlayView.m */,
+				3DA1050C205684EC002B3D33 /* OverlayView1.xib */,
+				3DA1050E205684F6002B3D33 /* OverlayView1.h */,
+				3DA1050F20568506002B3D33 /* OverlayView1.m */,
 				3DC979A9205269E300F9CBF9 /* Main.storyboard */,
 				3DC979AC205269E300F9CBF9 /* Assets.xcassets */,
 				3DC979AE205269E300F9CBF9 /* LaunchScreen.storyboard */,
@@ -145,10 +194,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DA105202056A59F002B3D33 /* Lightimage.png in Resources */,
+				3DA1050D205684EC002B3D33 /* OverlayView1.xib in Resources */,
+				3DA1051E2056A373002B3D33 /* lighticon.jpg in Resources */,
 				3DC979B0205269E300F9CBF9 /* LaunchScreen.storyboard in Resources */,
+				3DA10508205684CA002B3D33 /* OverlayView.xib in Resources */,
 				3DF0DEE92053A43A00992681 /* bean.jpg in Resources */,
 				3DF0DEEE2053A93000992681 /* Bell.png in Resources */,
+				3DA105142056898B002B3D33 /* closebox@2x.png in Resources */,
+				3DA1051C2056A201002B3D33 /* icon.jpg in Resources */,
 				3DC979AD205269E300F9CBF9 /* Assets.xcassets in Resources */,
+				3DA105122056897F002B3D33 /* closebox.png in Resources */,
+				3DA105222056A8BA002B3D33 /* IconImage.jpg in Resources */,
 				3DC979AB205269E300F9CBF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,9 +219,14 @@
 			files = (
 				3DF0DEF12053B7B500992681 /* SMSvc.m in Sources */,
 				3DC979A8205269E300F9CBF9 /* ViewController.m in Sources */,
+				3DA1050B205684DE002B3D33 /* OverlayView.m in Sources */,
+				3DA1051A2056A028002B3D33 /* HomeVC.m in Sources */,
+				3DA105172056984A002B3D33 /* CollectionViewCell.m in Sources */,
 				3DC979B3205269E400F9CBF9 /* main.m in Sources */,
 				3DF0DEEC2053A51100992681 /* BellNotificationVC.m in Sources */,
+				3DA1050620568499002B3D33 /* overlay.m in Sources */,
 				3DC979A5205269E300F9CBF9 /* AppDelegate.m in Sources */,
+				3DA1051020568506002B3D33 /* OverlayView1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
